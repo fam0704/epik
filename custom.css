@@ -1,0 +1,1650 @@
+/*
+    Theme Name: Epik - Customized styles
+    Theme URI: http://appfinite.com/themes/epik
+	Description: Epik is a mobile responsive and HTML5 theme built for the Genesis Framework.
+    Author: Appfinite
+    Author URI: http://www.appfinite.com/
+    Version: 1.4
+	Tags: black, blue, default, gray, green, orange, pink, purple, red, one-column, two-columns, three-columns, fixed-width, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+    Template: genesis
+    Template Version: 2.0
+*/
+
+.head-wrap {
+	max-height: 100px;
+}
+
+.header-image .site-title a {
+	min-height: 91px;
+	width: 100%;
+}
+
+.epik-darkblue .head-wrap {
+	background: #FFF;
+}
+
+/************************************************************************************
+BODY
+*************************************************************************************/
+
+body {
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    font-size: 15px;
+    background: none repeat scroll 0 0 #FFF;
+}
+/************************************************************************************
+HEAD
+*************************************************************************************/
+.head-wrap {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 0 0px;
+}
+
+/************************************************************************************
+MENU
+*************************************************************************************/
+.site-header .genesis-nav-menu a {
+    color: #132249;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: #fff;
+}
+.header-image .site-header .widget-area {
+    padding: 10px 0;
+}
+.encabezado-1 {
+    color: #000;
+    font-weight: normal;
+    font-size: 14px;
+}
+.site-header .widget-area a {
+    color: #002573;    
+}
+.header-blue {
+    color: #4a72b0;
+}
+#responsive-menu-icon:before {
+    color: #00246C;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+.slider {
+	clear: both;
+	background-image: url("img/siigo-software.jpg");
+    height: 500px;
+    background-position: center center;
+}
+.slider h1{
+    text-align: center;
+    color: #002573;
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 5px;
+}
+.slider h2{
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.container-slider-button{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+.slider a{
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.content__more-arrow__icon {
+    animation: 0.85s ease-in-out 0s alternate none infinite running more-arrow-bounce;
+    background-image: url("img/sprite.png");
+    background-position: -192px -64px;
+    background-repeat: no-repeat;
+    background-size: 825px 192px;
+    height: 13px;
+    margin: 10px auto auto;
+    width: 25px;
+}
+.slider .widget {
+    margin: 0 0 90px;
+}
+.container-slider-text{
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/************************************************************************************
+WELCOME
+*************************************************************************************/
+.welcome-features {
+    background: none repeat scroll 0 0 #fff;
+    overflow: hidden;
+    width: 100%;
+}
+.welcome-feature-1 h4, .welcome-feature-2 h4, .welcome-feature-3 h4 {
+    color: #002d7c;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 26px;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+}
+.welcome-feature-1 p, .welcome-feature-2 p, .welcome-feature-3 p {
+    margin: 0 0 20px;
+    color: 15px;
+    text-align: center;
+    font-weight: 400px;
+    color: #000;
+}
+.welcome-feature-1 a, .welcome-feature-2 a, .welcome-feature-3 a {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.welcome-features .wrap {
+    padding: 180px 0 60px;
+}
+.container-welcome-button{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #8cc63f;
+    padding: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.container-green-button{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: #8cc63f;
+    padding: 10px 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+
+/************************************************************************************
+HF4
+*************************************************************************************/
+.hf4 .wrap{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/************************************************************************************
+Testimoniales
+*************************************************************************************/
+.container-slider-text-2{
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.container-slider-text-4{
+    text-align: center;
+    font-size: 16px;
+    color: #29ABE2;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container-testimony {   
+    margin-top: 3px;
+}
+#container-testimony ul {
+    list-style: outside none none;
+    padding: 0;
+}
+#container-testimony li:first-child {
+    margin-left: 0;
+}
+#container-testimony li {
+    float: left;
+    margin-left: 10px;
+    padding: 25px 0 25px 0px;
+    width: 275px;
+    text-align: center;
+}
+#container-testimony img {
+    text-align: center;
+}   
+#container-testimony p {
+    margin: 0;
+    text-align: center;
+    width: 275px; 
+}
+#container-testimony .contador {
+    color: #FFF;
+    float: left;
+    font-size: 20px;
+    height: 58px;
+    line-height: 58px;
+    margin: 0 0 0 0px;
+    text-align: center;
+    width: 275px;    
+}
+.contenedor {
+    margin: 0 auto;
+}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+
+/************************************************************************************
+¿Por qué elegir Siigo?
+*************************************************************************************/
+.container-slider-text-3{
+    text-align: center;
+    font-size: 34px;
+    color: #002573;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#container-indicators {   
+    margin-top: 3px;
+}
+#container-indicators ul {
+    list-style: outside none none;
+    padding: 0;
+}
+#container-indicators li:first-child {
+    margin-left: 0;
+}
+#container-indicators li {
+    float: left;
+    margin-left: 10px;
+    padding: 25px 0 25px 0px;
+    width: 180px;
+    text-align: center;
+}
+#container-indicators img {
+    text-align: center;
+}   
+#container-indicators .titulo-indicador {
+    color: #034a83;
+    font-size: 45px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 58px;
+    text-align: center;
+}
+#container-indicators p {
+    margin: 0;
+    text-align: center;
+    width: 180px; 
+    line-height: 15px;
+}
+
+/************************************************************************************
+NOSOTROS
+*************************************************************************************/
+.home-feature-8 p {
+    margin: 0;
+    width: 100%;
+    color: #666;
+}
+.container-slider-text-5{
+    text-align: center;
+    font-size: 34px;
+    color: #000;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+.footer-widgets {
+    background-color: #f0f0f0;
+    color: #000;
+}
+.site-footer {
+    background-color: #002d7c;
+    color: #FFF;
+}
+
+.footer-widgets p {
+    color: #838383;
+}
+
+.footer-widgets a {
+    color: #1f7bb6;
+}
+
+/************************************************************************************
+INTERNA
+*************************************************************************************/
+
+.entry {
+    background: none repeat scroll 0 0 ;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    margin: 0 0px 0px;
+    padding: 0px 0 0;
+}
+.entry-title {
+    font-size: 0px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 0 0px;
+}
+.entry-content {
+    padding: 0 0px 0px;
+}
+/************************************************************************************
+COMPLEMENTO
+*************************************************************************************/
+
+.container-slider-image{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.pad-bottom{
+    padding-bottom: 10px;
+}
+.pad-right{
+    padding-right: 10px;
+}
+.pad-left{
+    padding-left: 10px;
+}
+.pad-left-right{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.contenedor {
+    margin: 0 auto;
+    width: 1140px;
+}
+.clear {
+    clear: both;
+}
+.slider-landing-blue {
+    clear: both;
+    background-image: url("img/siigo-software-contact.jpg");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-position: top center; 
+    background-repeat: no-repeat;   
+}
+#pageHeader-Niif {
+    float: left;
+    height: 215px;
+    margin-left: 430px;
+    margin-top: 43px;
+    position: absolute;
+    width: 215px;
+    z-index: 999999;
+}
+#pageHeader-Niif a {   
+    text-decoration: none; 
+}
+
+/************************************************************************************
+PRODUCTO CONTADOR PYME EMPRENDEDOR
+*************************************************************************************/
+
+.slider-producto {
+    clear: both;
+    background-image: url("img/siigo-software-contador.jpg");
+    height: 500px;
+    background-position: center center;
+}
+.slider-producto h1{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 5px;
+}
+.slider-producto h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #DEDEDE;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.slider-producto a{
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.slider-producto-video {
+    clear: both;
+    background-color: #002573;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.slider-producto-video h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #DEDEDE;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+.slider-producto-video p{
+    margin-bottom: 0px;
+}
+.slider-producto-principal {
+    clear: both;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+.slider-producto-principal h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+.slider-producto-principal a{
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.slider-producto-principal strong{
+    color: #002573;
+} 
+.container-producto-button{
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 5px;
+    color: #fff;
+    background-color: #8cc63f;  
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.slider-producto-gris {
+    clear: both;
+    background-color: #EAEAEA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+.slider-producto-gris h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #002573;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+.slider-producto-gris a{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.slider-contact-blue {
+    clear: both;
+    background-image: url("img/siigo-software-contact.jpg");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-position: center center;
+    height: 870px;
+}
+.slider-contact-blue h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.contact-blue-form {
+    clear: both;
+    background-color: #29A3DA;
+    padding: 40px;
+    width: 500px;
+    height: 750px;
+    text-align: center;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    margin: 0 auto;
+}
+.slider-producto-pyme {
+    clear: both;
+    background-image: url("img/siigo-software-pyme.jpg");
+    height: 500px;
+    background-position: center center;
+}
+.slider-producto-pyme h1{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 5px;
+}
+.slider-producto-pyme h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #DEDEDE;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.slider-producto-pyme a{
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.slider-producto-white {
+    clear: both;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: left;
+}
+.slider-producto-white h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #002573;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+.slider-producto-white a{
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+.slider-producto-white-blue {
+    clear: both;
+    background-color: #29A3DA;
+    padding: 40px;
+    width: 1000px;
+    height: 240px;
+    text-align: left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 10px;
+    line-height: 1.8;
+    font-size: 15px; 
+}
+.slider-producto-emprendedor {
+    clear: both;
+    background-image: url("img/siigo-software-emprendedor.jpg");
+    height: 500px;
+    background-position: center center;
+}
+.slider-producto-emprendedor h1{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #FFF;
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 5px;
+}
+.slider-producto-emprendedor h2{
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    text-align: center;
+    color: #DEDEDE;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.slider-producto-emprendedor a{
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-left: 20%;
+    padding-right: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+
+/************************************************************************************
+Contactos-Page
+*************************************************************************************/
+
+#contenedor-contactos {
+    margin-right: auto;
+    margin-left: auto;
+    width: 984px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#contenido-contactos {
+    background-color: #ffffff;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border-radius: 1px 1px 1px 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    width: 448px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #D8D8D7;
+    height: 806px;
+    float: left;
+    padding: 20px;
+    color: #010101;
+    background-image: url(img/fonfo-header-blanco.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+#contenido-contactos-2 {
+    background-color: #ffffff;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border-radius: 1px 1px 1px 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    width: 448px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #D8D8D7;
+    height: 806px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    color: #010101;
+    background-image: url(images/fonfo-header-blanco.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+#contenido-contactos-siigol {
+    background-color: #ffffff;
+    -moz-border-radius: 1px 1px 1px 1px;
+    -webkit-border-radius: 1px 1px 1px 1px;
+    border-radius: 1px 1px 1px 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    width: 400px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border: 1px solid #D8D8D7;
+    height: 370px;
+    float: left;
+    padding: 20px;
+    color: #010101;
+    background-image: url(img/fonfo-header-blanco.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+}
+#contenido-contactos-text {
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    float: left;
+    height: 494px;
+}
+#contenido-contactos-titulo {
+    width: 470px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #132147;
+    padding-left: 10px;
+}
+#contenido-contactos-text-azul {
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    height: 95px;
+    background-color: #1799D1;
+    color: #FFF;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.different-text-color {
+    color: #132147;
+    font-weight: bold;
+}
+.different-text-color-2 {
+    color: #132147;
+}
+#contenido-contactos-text-azul-2 {
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    height: 120px;
+    background-color: #1799D1;
+    color: #FFF;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#contenido-contactos-text-azul-10 {
+    width: 480px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    float: left;
+    height: 26px;
+    background-color: #1799D1;
+    color: #FFF;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#contenido-text-contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+#contenido-text-contact-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #1799D1;
+    margin-top: 52px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+#contenido-contact-sucursales {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 10px;
+}
+#contenido-contact-surc-int {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #666666;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 500px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 50px;
+}
+#contenido-info-contact-suc {
+    float: left;
+    height: 40px;
+    width: 165px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+
+/************************************************************************************
+Nosotros-Page
+*************************************************************************************/
+
+#contenido-nosotros {
+    background-color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 984px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 1260px;
+}
+#contenido-nosotros-izq {
+    width: 590px;
+    float: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+#contenido-nosotros-izq h1 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 37px;
+    color: #132147;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 65px;
+}
+#contenido-nosotros-texto {
+    width: 470px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: "Myriad Pro", Calibri, sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-align: justify;
+    height: 590px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contenido-nosotros-der {
+    width: 390px;
+    float: right;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#contenido-1-der {
+    background-image: url("img/linea-historia.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    float: left;
+    height: 1370px;
+    width: 135px;
+    margin-top: 28px;
+}
+#contenido-der-siigo-1988 {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 56px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-computer-world {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 82px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-exact {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 75px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-Colombia {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 120px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-iso {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 113px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-synergy {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 80px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-isiigo {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 48px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-der-siigo-2013 {
+    background-image: url("img/linea-historia-horizontal-2.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    height: 60px;
+    width: 134px;
+    margin-top: 15px;
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 13px;
+}
+#contenido-2-izq {
+    float: left;
+    height: 980px;
+    width: 225px;
+    margin-top: 10px;
+}
+#cont-fecha-title {
+    background-image: url("img/linea-historia-horizontal.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    float: left;
+    height: 25px;
+    width: 205px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #666;
+    padding-left: 20px;
+}
+#cont-fecha-texto {
+    float: left;
+    width: 205px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/************************************************************************************
+LANDING PAGE
+*************************************************************************************/
+
+#pageHeader-landing {
+    float: left;
+    height: 215px;
+    margin-left: 920px;
+    margin-top: 15px;
+    position: fixed;
+    width: 215px;
+    z-index: 999999;
+}
+.slider-landing-blue {
+    clear: both;
+    background-image: url("img/siigo-software-contact.jpg");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-position: top center; 
+    background-repeat: no-repeat;   
+}
+
+/* Landing Perú
+============================ */
+.BigImage{
+    float: left;
+    width: 541px;
+    margin-top: 8px;
+}
+.LandingFormPeru{
+    float: right;
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    background-image: url("images/fonfo-header-blanco.jpg");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border: 1px solid #D8D8D7;
+    border-radius: 1px;
+    color: #010101;
+    float: left;
+    margin-bottom: 1px;
+    margin-top: 28px;
+    padding: 15px;
+    width: 386px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 2px 1px 1px #838383;
+}
+.LeftSquare{
+    float: left;
+    width: 401px;
+    margin-top:70px;
+}
+.LeftSquare1{
+    float: left;
+    width: 425px;
+    color: #fff;
+}
+
+.RightSquare{
+    float: right;
+    width: 495px;
+}
+.TextAreaFormPeru{
+    width: 279px;
+    max-width: 90%;
+}
+.ContainerWhyiSiigo{
+    width:1007px;
+    height:420px;
+    }
+.ContainerWhyiSiigo p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+.ContainerWhyiSiigo2{
+    width:1007px;
+    height:496px;
+    }
+.ContainerWhyiSiigo2 p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+.ContainerWhyiSiigo3{
+    height:295px;
+    color: #fff;
+    padding-left: 30px;
+    margin-left: 90px;
+    }
+
+/* ////////////////////////////////Finish Landing Perú
+============================ */
+
+#landings_container {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    width: 975px;
+}
+#banner_landings {
+    height: 525px;
+    min-width: 976px;
+}
+.BoxTestimoniales {
+    height: 400px;
+    margin: 350px auto 35px;
+    width: 950px;
+}
+.BoxTestimoniales2 {
+    height: 310px;
+    margin: 350px auto 35px;
+    width: 950px;
+}
+.TittleTestimoniales {
+    position: relative;
+    width: 950px;
+}
+.BoxTestimonialIzda {
+    float: left;
+    width: 470px;
+}
+.BoxTestimonialIzda {
+    float: left;
+    width: 470px;
+}
+.TitleSectorEmpresa {
+    color: #0091cc;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.TestimonialFoto {
+    border: 2px dotted #0091cc;
+    float: left;
+    padding: 5px;
+}
+.TextoTestimonial {
+    color: #666;
+    font-family: Georgia,serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    margin-left: 150px;
+    padding: 5px 20px;
+    text-align: left;
+}
+.NombreCargoTestimonial {
+    clear: both;
+    color: #666;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+}
+.RightSquare2 {
+    padding: 0 195px;
+    width: 560px;
+}
+.entry p {
+    margin-bottom: 10px;
+}
+/*LANDING V1 */
+.pagewrap2{
+    background-color:#0091CC;
+    height: 470px;
+    margin-top: 34px;
+    }
+
+/* Estos selectores de clase han sido sustituidos por selectores de ID que figuran inmediatamente a continuación.
+.LandingHeader{
+    height: 63px;
+    margin-top: 0px;
+}
+.LogoLanding{
+    background-image:url(http://isiigo.es/wp-content/uploads/2013/09/logo9.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 180px;
+    height: 93px;
+    margin-left: 30px;
+    margin-top: 12px;
+    
+}
+*/
+#HeaderLanding {
+    height: 63px;
+    margin-top: 0px;
+    
+}
+#HeaderLanding #LogoLanding {   
+    float: left;
+    margin-left: 30px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    /*border:1px solid grey;*/
+}
+#HeaderLanding #LogoLanding a {
+    display: block;
+}
+#HeaderLanding #LogoLanding a:hover {
+    text-decoration: none;
+    border-image: none;
+}
+.ContactUs{
+    background-color: #82B22C;
+    width: 253px;
+    height: 45px;
+    float: right; 
+    border-radius: 5px;
+    margin: 5px 30px 0px 0px;   
+}
+.ContactUsPaginas{
+    background-color: #82B22C;
+    width: 260px;
+    height: 30px;
+    float: right; 
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+.BigImage2{
+    float: left;
+    width: 541px;
+    margin-top: 85px;
+}
+.LandingForm{
+    float: right;
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    background-position: center top;
+    background-repeat: repeat-x;
+    border: 1px solid #D8D8D7;
+    border-radius: 1px;
+    color: #010101;
+    /*float: center;*/
+    margin-bottom: 40px;
+    margin-top: -10px;
+    padding: 15px;
+    width: 420px;
+}
+.TittleLanding{
+    font-size:39px;
+    font-family:'Open Sans',sans-serif;
+    color:#FFF;
+    text-align:center;
+    padding-top: 0px;
+}
+.TittleLanding1{
+    font-size: 28px;
+    font-family:'Open Sans',sans-serif;
+    color:#fff;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.TittleLanding2{
+    font-size: 28px;
+    font-family:'Open Sans',sans-serif;
+    color:#002573;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.TittleDestacado{
+    font-size: 22px;
+    font-family:'Open Sans',sans-serif;
+    font-weight:bold;
+    color:#0091CC;
+    text-align:center;
+    width: 700px;
+    margin: 20px auto;
+}
+.TitleSecciones {
+  font-family: &quot;Open Sans&quot;,sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #0091CC;
+  /*text-decoration: none;*/
+  /*line-height=30px;*/
+}
+.TextoListado {
+  font-family: &quot;Open Sans&quot;,sans-serif;
+  font-size: 20px;
+  color: #999999;
+  /*color: #0091CC;*/
+  text-align: left;
+  line-height: 30px;
+    width: auto;
+    /*border: 1px solid #ccc;*/
+}
+.TextObjeciones {
+  text-align:center;
+  width:auto;
+    /*border: 1px solid #ccc;*/
+}
+.TextFuncionalidades{
+    float: left;
+    width: 380px;
+    margin-top:60px;
+    padding-left: 70px;
+    /*padding-left: 120px;*/
+    /*border-radius:25px;*/
+}
+.TextPromocion {
+  text-align:center;
+  width:650px;
+  padding-left: 170px;
+}
+.TittleTestimoniales2{
+  color: #0091cc;
+  font-family: "Open Sans",sans-serif;
+  font-size: 28px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.TextoTestimonial{
+  text-align: left;
+  padding: 5px 20px 5px 20px;
+  margin-left: 150px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #666;
+  line-height: 18px;
+}
+.NombreCargoTestimonial{
+  padding: 10px;
+  /*margin-top: 30px;*/
+  clear: both;
+  /*width:470px;*/
+  text-align: left;
+  font-family: &quot;Open Sans&quot;,sans-serif;
+  font-size: 15px;
+  color: #666;
+}
+.TitleSectorEmpresa {
+  font-family: &quot;Open Sans&quot;,sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  /*text-align: center;*/
+  color: #0091CC;
+  /*text-decoration: none;*/
+  /*line-height=30px;*/
+}
+.TestimonialFoto{
+  float: left;
+  padding: 5px;
+  border: 2px dotted #0091CC;
+}
+.demo_buttom_landing {
+  width: 950px;
+  margin: 20px auto 80px auto;
+  position: relative;
+  left: auto;
+  right: auto;
+  z-index: 5;
+}
+.demo_buttom_landing2 {
+  width: 950px;
+  margin: 20px auto 20px auto;
+  position: relative;
+  left: auto;
+  right: auto;
+  z-index: 5;
+}
+.green_buttom_landing{
+    width:290px;
+    height:55px;
+    background-color:#142147;
+    border-radius:3px;
+    box-shadow: 2px 2px 2px #838383;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 14px 0;
+}
+a.text_green_button_landing {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 0;
+}
+.green_buttom_landing:hover {
+    background-color: #1799d1;
+}
+.garnet_buttom{
+    width:290px;
+    height:16px;
+    background-color:#911012;
+    border-radius:3px;
+    box-shadow: 2px 2px 2px #CCC;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 14px 0;
+}
+a.text_garnet_button {
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 0;
+}
+.garnet_buttom:hover {
+    background-color: ##D91A1A;
+}
+.ContactUsPieLanding{
+    width:320px;
+    height:55px;
+    background-color:#1799d1;
+    text-align: center;
+    border-radius:5px;
+    /*box-shadow: 2px 2px 2px #838383;*/
+    margin: 10px auto 50px auto;
+    padding: 5px 0;
+}
+
+/************************************************************************************
+CUSTOMER PAGE
+*************************************************************************************/
+.CustomerName {
+    font-size:22px;
+    color:#132249;
+    text-align:right;
+    font-family: 'Loved by the King', cursive;
+    line-height: 1;
+}
+
+.CustomerTestimonial {
+    float:right;
+    width:420px;
+    text-align:justify;
+}
+.CustomerContainer{
+    background-color: #ffffff;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /*Use "background-clip: padding-box" when using rounded corners to avoid the gradient bleeding through the corners*/
+    /*--IE9 WILL PLACE THE FILTER ON TOP OF THE ROUNDED CORNERS--*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 984px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    padding-top: 1px;
+    padding-bottom: 34px;
+    height: 2851px;
+}
+
+/************************************************************************************
+767PX
+*************************************************************************************/
+@media only screen and (max-width: 767px) {
+.welcome-features .wrap {
+    padding: 420px 0 60px;
+}
+.welcome-feature-1 a, .welcome-feature-2 a, .welcome-feature-3 a {
+    text-align: center;
+    color: #fff;
+    background-color: #8cc63f;
+    font-weight: normal;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 18px;
+}
+}
+
+/************************************************************************************
+580PX
+*************************************************************************************/
+@media only screen and (max-width: 580px) {
+
+.slider h1 {
+    color: #002573;
+    font-size: 45px;
+    margin-bottom: 5px;
+    padding-top: 100px;
+    text-align: center;
+}
+.container-slider-button {
+    margin: 50px auto 5px;
+    text-align: center;
+}
+.welcome-features .wrap {
+    padding: 520px 0 60px;
+}
+}
+/************************************************************************************
+480PX
+*************************************************************************************/
+@media only screen and (max-width: 480px) {
+.slider h1 {
+    color: #002573;
+    font-size: 45px;
+    margin-bottom: 5px;
+    padding-top: 50px;
+    text-align: center;
+}
+.container-slider-button {
+    margin: 50px auto 5px;
+    text-align: center;
+}
+.welcome-features .wrap {
+    padding: 520px 0 60px;
+}
+}
